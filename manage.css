@@ -1,0 +1,110 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+    background-color: #ec88e8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    }
+header {
+    background-color: #b448b0; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    }
+.menu-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5dc;
+    color: #5D5C61;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    width: 22%;
+    max-width: 500px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    }
+.menu-item:hover {
+    background-color: #cfcfb7;
+    transform: scale(1.05);
+    }
+.content {
+    padding: 2rem;
+    text-align: center;
+    }
+.tabs {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    }
+.tablink {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+    transition: 0.3s;
+    border-radius: 8px;
+    margin: 5px;
+    }
+.tablink:hover {
+    background-color: #0056b3;
+    }
+.tablink.active {
+    background-color: #0056b3;
+    }
+.tabcontent {
+    background-color: #f1f1f1;
+    display: none;
+    padding: 1rem;
+    border-top: none;
+    }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+table, th, td {
+    border: 1px solid black;
+    }
+th, td {
+    padding: 15px;
+    text-align: left;
+    }
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    }
+input[type="text"], input[type="number"], input[type="submit"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+input[type="submit"] {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Source+Sans+Pro:wght@400;600&display=swap');

@@ -1,0 +1,113 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #ec88e8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b448b0; 
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 80px;
+}
+
+/* Logout Button */
+.home-btn {
+    background-color: #fbfbfb;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-btn:hover {
+    background-color: #b19d9d;
+}
+
+/* Content */
+.content {
+    padding: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Query Sections */
+.query-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.query-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Home Button */
+.home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
